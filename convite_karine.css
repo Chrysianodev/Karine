@@ -1,6 +1,6 @@
 :root {
     --gold: #3A7D44;
-    --gold-light: #6BBF72;
+    --gold-light: #4FA85A;
     --gold-dark: #1F4D28;
     --dark: #060D07;
     --dark2: #0A1A0C;
@@ -340,8 +340,8 @@
 
   .verse {
     font-size: 0.95rem;
-    color: var(--gold);
-    opacity: 0.75;
+    color: rgba(255,255,255,0.85);
+    opacity: 1;
     font-style: italic;
     margin-bottom: 24px;
     line-height: 1.6;
@@ -366,12 +366,12 @@
     font-family: 'Cinzel', serif;
     font-size: 0.8rem;
     letter-spacing: 3px;
-    color: var(--gold);
-    border: 1px solid rgba(201,168,76,0.3);
+    color: #ffffff;
+    border: 1px solid rgba(255,255,255,0.4);
     padding: 6px 18px;
     border-radius: 20px;
     margin-bottom: 28px;
-    background: rgba(201,168,76,0.06);
+    background: rgba(255,255,255,0.08);
   }
 
   /* Date block */
@@ -429,15 +429,18 @@
   }
 
   .price-tag {
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.05rem;
-    color: rgba(245,237,216,0.55);
-    margin: 10px 0 28px;
-    letter-spacing: 1px;
+    font-family: 'Cinzel', serif;
+    font-size: 1.25rem;
+    color: rgba(245,237,216,0.85);
+    margin: 14px 0 32px;
+    letter-spacing: 2px;
+    font-weight: 600;
   }
   .price-tag span {
-    color: var(--gold);
-    font-weight: 600;
+    color: var(--gold-light);
+    font-weight: 700;
+    font-size: 1.45rem;
+    text-shadow: 0 0 16px rgba(107,191,114,0.5);
   }
 
   /* Message */
@@ -494,7 +497,7 @@
     font-family: 'Cinzel', serif;
     font-size: 0.75rem;
     letter-spacing: 1.5px;
-    color: var(--gold);
+    color: #ffffff;
     text-transform: uppercase;
     text-align: center;
     line-height: 1.4;
@@ -509,7 +512,7 @@
   .footer-text {
     font-family: 'Great Vibes', cursive;
     font-size: 1.1rem;
-    color: rgba(201,168,76,0.5);
+    color: rgba(255,255,255,0.75);
   }
 
   /* Corner flourishes on card */
@@ -529,7 +532,7 @@
     font-family: 'Cinzel', serif;
     font-size: 0.75rem;
     letter-spacing: 2px;
-    color: rgba(201,168,76,0.45);
+    color: rgba(255,255,255,0.7);
     margin-top: 6px;
     text-transform: uppercase;
   }
