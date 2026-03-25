@@ -268,8 +268,8 @@
 
   .course-title {
     font-family: 'Cinzel', serif;
-    font-size: 0.75rem;
-    letter-spacing: 5px;
+    font-size: 0.95rem;
+    letter-spacing: 4px;
     color: var(--gold);
     text-transform: uppercase;
     margin-bottom: 4px;
@@ -278,7 +278,7 @@
 
   .baile-title {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 0.68rem;
+    font-size: 0.9rem;
     letter-spacing: 3px;
     color: var(--cream2);
     text-transform: uppercase;
@@ -331,15 +331,15 @@
   }
 
   .intro-text {
-    font-size: 0.9rem;
-    line-height: 1.7;
+    font-size: 1.05rem;
+    line-height: 1.8;
     color: rgba(245,237,216,0.7);
     font-style: italic;
     margin-bottom: 14px;
   }
 
   .verse {
-    font-size: 0.78rem;
+    font-size: 0.95rem;
     color: var(--gold);
     opacity: 0.75;
     font-style: italic;
@@ -364,11 +364,11 @@
   .course-badge {
     display: inline-block;
     font-family: 'Cinzel', serif;
-    font-size: 0.6rem;
-    letter-spacing: 4px;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
     color: var(--gold);
     border: 1px solid rgba(201,168,76,0.3);
-    padding: 4px 16px;
+    padding: 6px 18px;
     border-radius: 20px;
     margin-bottom: 28px;
     background: rgba(201,168,76,0.06);
@@ -388,7 +388,7 @@
   }
   .date-side .label {
     font-family: 'Cinzel', serif;
-    font-size: 0.55rem;
+    font-size: 0.75rem;
     letter-spacing: 2px;
     color: rgba(201,168,76,0.6);
     display: block;
@@ -396,7 +396,7 @@
   }
   .date-side .value {
     font-family: 'Cinzel', serif;
-    font-size: 0.95rem;
+    font-size: 1.1rem;
     color: var(--cream);
     font-weight: 600;
   }
@@ -408,7 +408,7 @@
   }
   .date-center .day-num {
     font-family: 'Cinzel', serif;
-    font-size: 2.8rem;
+    font-size: 3.2rem;
     font-weight: 600;
     color: var(--gold-light);
     line-height: 1;
@@ -416,21 +416,21 @@
   }
   .date-center .month {
     font-family: 'Cinzel', serif;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     letter-spacing: 3px;
     color: var(--gold);
     display: block;
   }
   .date-center .year {
     font-family: 'Cinzel', serif;
-    font-size: 0.55rem;
+    font-size: 0.75rem;
     color: rgba(201,168,76,0.5);
     letter-spacing: 2px;
   }
 
   .price-tag {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 0.85rem;
+    font-size: 1.05rem;
     color: rgba(245,237,216,0.55);
     margin: 10px 0 28px;
     letter-spacing: 1px;
@@ -442,7 +442,7 @@
 
   /* Message */
   .personal-msg {
-    font-size: 0.85rem;
+    font-size: 1.05rem;
     line-height: 1.75;
     color: rgba(245,237,216,0.65);
     margin-bottom: 28px;
@@ -492,7 +492,7 @@
 
   .btn-label {
     font-family: 'Cinzel', serif;
-    font-size: 0.52rem;
+    font-size: 0.75rem;
     letter-spacing: 1.5px;
     color: var(--gold);
     text-transform: uppercase;
@@ -527,7 +527,7 @@
   /* Confirm note */
   .confirm-note {
     font-family: 'Cinzel', serif;
-    font-size: 0.55rem;
+    font-size: 0.75rem;
     letter-spacing: 2px;
     color: rgba(201,168,76,0.45);
     margin-top: 6px;
